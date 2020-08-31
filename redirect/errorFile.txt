@@ -1,0 +1,4 @@
+This is my keyboard : Traceback (most recent call last):
+  File "./redirect.py", line 5, in <module>
+    raise ValueError("and this is the raise ValueError oooojjjjjj")
+ValueError: and this is the raise ValueError oooojjjjjj
