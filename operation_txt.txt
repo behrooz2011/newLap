@@ -1,0 +1,15 @@
+123 Timeout while retrieving information
+123 The ticket was modified while updating
+123 The ticket was modified while updating
+123 The ticket was modified while updating
+123 Connection to DB failed
+123 INFO Commented
+123 The ticket was modified while updating
+123 Permission denied while closing ticket
+123 Ticket doesn't exist
+123 Ticket doesn't exist
+123 Ticket doesn't exist
+123 Ticket doesn't exist
+123 Ticket doesn't exist
+123 INFO Commented
+123 INFO Commented
