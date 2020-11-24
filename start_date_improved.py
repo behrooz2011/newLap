@@ -11,6 +11,7 @@ import csv
 import datetime
 import requests
 
+
 FILE_URL="http://marga.com.ar/employees-with-date.csv"
 
 def get_start_date():
