@@ -42,7 +42,7 @@ winsound.Beep(frequency, duration)
 # gmail_password = 'kkk'
 
 # sent_from = gmail_user
-# to = ['bmmm1370@gmail.com', 'joe@gmail.com']
+# to = ['70@gmail.com', 'joe@gmail.com']
 # subject = 'python Message'
 # body = 'Hey, what\'s up?\n\n- You\n this is sent from my freakin python script!!!!! \n\
 # This is supposed to be a fun trip \
