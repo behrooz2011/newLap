@@ -16,7 +16,7 @@ def distance(x,z):
     newList2.append(z[0])
     for j,oz in enumerate(z):
         if i!= 0:
-            yy=z[j]-z[j-1]
+            yy=z[j]-z[j-1]  
             newList2.append(yy)
     return max(newList)*max(newList2)
     
