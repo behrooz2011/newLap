@@ -37,13 +37,3 @@ b = [3, 1, 2, 4, 5]
  
 print(maxArea(a))
 print(maxArea(b))
-
-# with class
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        arr=[]
-        for index,value in enumerate(height):
-            for elem in range(index+1,len(height)):
-                z=min(value,height[elem]) * (elem-index)
-                arr.append(z)
-        return max(arr)
