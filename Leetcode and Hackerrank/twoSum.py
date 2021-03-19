@@ -52,3 +52,16 @@ pair_sum = 9
   
 # Calling function
 twoSumHashing(num_arr, pair_sum)
+
+
+""" Repetitive"""
+def twoS(x,target):
+  obj={}
+  sum=[]
+  for i in range(len(x)):
+    comp = target - x[i]
+    obj[x[i]]= x[i]
+    if comp in obj:
+      sum.append([x[i],comp])
+  return sum
+print(twoS([4, 5, 1, 8,5,5,5,7],9))
