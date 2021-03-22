@@ -1,0 +1,59 @@
+https://stackoverflow.com/questions/12618939/properties-and-methods-of-req-and-res-objects-in-node-js
+
+ServerResponse
+
+  statusCode             property
+  _implicitHeader()      method
+  assignSocket()         method
+  detachSocket()         method
+  writeContinue()        method
+  writeHead()            method
+  writeHeader()          method
+
+  _buffer()              (from OutputMessage) method
+  _finish()              (from OutputMessage) method
+  _flush()               (from OutputMessage) method
+  _renderHeaders()       (from OutputMessage) method
+  _send()                (from OutputMessage) method
+  _storeHeader()         (from OutputMessage) method
+  _writeRaw()            (from OutputMessage) method
+  addTrailers()          (from OutputMessage) method
+  destroy()              (from OutputMessage) method
+  end                    (from OutputMessage) method
+  getHeader()            (from OutputMessage) method
+  removeHeader()         (from OutputMessage) method
+  setHeader()            (from OutputMessage) method
+  write()                (from OutputMessage) method
+
+  pipe()                 (from Stream) method
+
+  addListener()          (from EventEmitter) method
+  emit()                 (from EventEmitter) method
+  listeners()            (from EventEmitter) method
+  on()                   (from EventEmitter) method
+  once()                 (from EventEmitter) method
+  removeAllListeners()   (from EventEmitter) method
+  removeListener()       (from EventEmitter) method
+  setMaxListeners()      (from EventEmitter) method
+
+  arguments              (from Object) property
+  caller                 (from Object) property
+  length                 (from Object) property
+  name                   (from Object) property
+  prototype              (from Object) property
+  super_                 (from Object) property
+
+  __defineGetter__()     (from Object) method
+  __defineSetter__()     (from Object) method
+  __lookupGetter__()     (from Object) method
+  __lookupSetter__()     (from Object) method
+  constructor()          (from Object) method
+  hasOwnProperty()       (from Object) method
+  isPrototypeOf()        (from Object) method
+  propertyIsEnumerable() (from Object) method
+  toLocaleString()       (from Object) method
+  toString()             (from Object) method
+  valueOf()              (from Object) method
+  apply()                (from Object) method
+  bind()                 (from Object) method
+  call()                 (from Object) method
